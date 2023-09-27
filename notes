@@ -1,0 +1,14 @@
+Please show all the tables.
+
+Please create table students with columns roll, name.
+
+Please insert data in students with values 2001142, pranjal
+
+Please give me all information of students.
+
+Please give me columns name of students where roll is 2001189.
+
+flex 1.l
+yacc -d 1.y
+gcc lex.yy.c y.tab.c -fcommon -DECHO -o outputFile
+python GUI.py outputFile
